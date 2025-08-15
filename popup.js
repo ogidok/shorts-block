@@ -23,7 +23,7 @@ toggleBtn.addEventListener('mouseout', () => {
   toggleBtn.style.background = 'linear-gradient(90deg, #ff5858 0%, #ff0000 100%)';
 });
 
-// Cargar estado actual desde storage y actualizar visual
+//Cargar estado actual desde storage y actualizar visual
 function updateBtn(isEnabled) {
   // Si está activado (ocultando Shorts), el botón debe ofrecer desactivar (mostrar Shorts)
   toggleBtn.textContent = isEnabled ? 'Mostrar Shorts' : 'Ocultar Shorts';
